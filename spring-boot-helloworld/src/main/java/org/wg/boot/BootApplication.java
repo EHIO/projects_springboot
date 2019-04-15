@@ -11,6 +11,7 @@ public class BootApplication {
 
 	@RequestMapping("/")
 	public String index() {
+		System.out.println("Hello Spring Boot!");
 		return "Hello Spring Boot";
 	}
 
