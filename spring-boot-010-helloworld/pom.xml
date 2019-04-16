@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.wg</groupId>
-	<artifactId>spring-boot-helloworld</artifactId>
+	<artifactId>spring-boot-010-helloworld</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<name>spring-boot-helloworld</name>

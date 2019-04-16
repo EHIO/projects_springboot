@@ -16,15 +16,15 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 @RequestMapping("/")
 public class ReadingListController {
 
-
 	private ReadingListRepository readingListRepository;
-  	private AmazonProperties amazonConfig;
+
+	private AmazonProperties amazonConfig;
 
 	@Autowired
 	public ReadingListController(ReadingListRepository readingListRepository,
 								 AmazonProperties amazonConfig) {
 		this.readingListRepository = readingListRepository;
-    	this.amazonConfig = amazonConfig;
+		this.amazonConfig = amazonConfig;
 	}
 
 	@RequestMapping(method = RequestMethod.GET, value = "/fail")

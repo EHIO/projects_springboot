@@ -28,7 +28,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 				.failureUrl("/login?error=true");
 	}
 
-	/*@Override
+	@Override
 	protected void configure(
 			AuthenticationManagerBuilder auth) throws Exception {
 		auth.userDetailsService(new UserDetailsService() {
@@ -42,6 +42,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 				throw new UsernameNotFoundException("User '" + username + "' not found.");
 			}
 		});
-	}*/
+	}
 
 }
