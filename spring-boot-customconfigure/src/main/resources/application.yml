@@ -1,0 +1,15 @@
+
+spring:
+  thymeleaf:
+    cache: false
+
+error:
+  whitelabel:
+    enabled: false
+
+amazon:
+  associate_id: gg
+
+logging:
+  level:
+    root: DEBUG
